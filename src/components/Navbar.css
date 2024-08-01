@@ -1,0 +1,46 @@
+/* .nav{
+    width: auto;
+    height: auto;;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(139, 134, 128);
+
+
+
+}
+.left{
+    flex: 20%;
+
+
+}
+.right{
+  flex: 80%;
+  color: black;
+}
+
+.img{
+  height: 50px;
+  width: 50px;
+
+}
+
+.img-small-circular {
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+.navbar {
+  backdrop-filter: blur(10px);
+} */
+/* Ensure this CSS is included to align the elements */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .ml-auto {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

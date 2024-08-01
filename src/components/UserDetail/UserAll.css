@@ -1,0 +1,48 @@
+
+
+   body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-all-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('https://plus.unsplash.com/premium_photo-1720823182783-3b9fb27e40d9?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .user-list-container {
+    flex: 1;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a white translucent background */
+  }
+  
+  .user-details-container {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a white translucent background */
+  }
+  
+  .userList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .userList li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .userList li:hover {
+    background-color: #e0e0e0;
+  }
+  
